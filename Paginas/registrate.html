@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="../CSS/estilo.css">
+</head>
+<body>
+    <header>
+        <div id="menuSuperior">
+            <nav>
+                <ul>
+                    <li><a href="#">Regístrate</a></li>
+                    <li><a href="formulario.html">A cerca de</a></li>
+                    <li><a href="peliculas.html">Peliculas</a></li>
+                    <li><a href="#">Precio</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="filaLogo">
+                <a href="../index.html">
+                    <img src="../img/LlefiaVideo.png" alt="LlefiaVideo">  
+                </a>
+        </div>
+    </header>
+    <h1 class="medio">ACCOUNT LOGIN</h1>
+    <div id="login">
+        <form class="medio" action="index.html" method="get">
+            <div>
+                <label for="Nombrelogin" class="peliblanco">Nombre</label>
+                <input id="Nombrelogin" name="Nombrelogin" type="text">
+                </div>
+                <div>
+                    <label for="Contraseñalogin" class="peliblanco">Contraseña</label>
+                    <input id="Contraseñalogin" name="Contraseñalogin" required type="password"> 
+                </div>
+                <div>
+                    <nav>
+                        <a href="#" class="peliblanco">Olvide mi contraseña</a>   
+                    </nav>
+                </div>
+                <div>
+                    <label for="recuerdame" class="peliblanco">Recuerda mi contraseña</label>
+                    <input id="recuerdame" name="recuerdame" type="checkbox">   
+                </div>
+                <button>Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
